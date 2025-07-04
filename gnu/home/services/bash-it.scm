@@ -2,8 +2,7 @@
   #:use-module (guix gexp)
   #:use-module (gnu home services)
   #:use-module (gnu home services shells)
-  #:use-module (gnu home services files)
-  #:use-module (gnu packages shell)  ;; Import your bash-it package
+  #:use-module (gnu packages shell)
   #:use-module (ice-9 match))
 
 (define-record-type* <home-bash-it-configuration>
